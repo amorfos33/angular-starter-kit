@@ -71,9 +71,3 @@ The current version of Angular Starter Kit is 16.2.4.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/amorfos33/angular-starter-kit/blob/main/LICENSE) file for details.
-
-## Support and Feedback
-
-For additional help or feedback on using Angular Starter Kit, you can use the `ng help` command or visit the [Angular CLI GitHub repository](https://github.com/angular/angular-cli).
-
-Enjoy building awesome Angular applications with this Starter Kit!
