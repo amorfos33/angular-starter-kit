@@ -1,4 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+@import 'styles-variables';
+
+@import 'styles-reset';
+@include mat.core();
+
+
+@mixin custom-components-theme($theme) {
+  @include app-styles-reset-theme($theme);
+  @include app-app-component-theme($theme);
+  @include app-big-input-component-theme($theme);
+  @include app-notifications-component-theme($theme);
+  @include app-stock-market-container-component-theme($theme);
+  @include app-parent-component-theme($theme);
+  @include app-child-component-theme($theme);
+}
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
